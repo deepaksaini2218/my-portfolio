@@ -31,7 +31,7 @@ function Contact(props) {
       message: message.value,
       subject: subject.value,
     };
-    let response = await fetch("http://localhost:5005/contact", {
+    let response = await fetch("https://deepak-saini.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
