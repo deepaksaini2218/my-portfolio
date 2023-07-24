@@ -18,11 +18,11 @@ app.listen(5005, () => console.log("Server Running"));
 //     },
 //   });
 const contactEmail = nodemailer.createTransport({
-  host: 'smtp.ethereal.email',
+  host: 'smtp.gmail.com',
   port: 587,
   auth: {
-      user: 'meredith35@ethereal.email',
-      pass: 'fHwRhVJXFUw4nFxxjm'
+      user: process.env.CONTACT_EMAIL,
+      pass: process.env.CONTACT_PASS
   }
 });
   
