@@ -22,10 +22,9 @@ const contactEmail = nodemailer.createTransport({
   host: 'smtp.gmail.com',
   port: PORT,
   auth: {
-      // user: process.env.CONTACT_EMAIL,
-      // pass: process.env.CONTACT_PASS
-      user: 'sainimonti17@gmail.com',
-      pass: 'jmxwnoqdehozmggj'
+      user: process.env.CONTACT_EMAIL,
+      pass: process.env.CONTACT_PASS
+   
   }
 });
   
