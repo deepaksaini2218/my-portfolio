@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState ,useRef } from 'react';
 import './Contact.css'
 import { BsFacebook,BsSkype,BsLinkedin,BsTelephonePlus,BsFillEnvelopeFill} from 'react-icons/bs';
 import { TbMapPin} from 'react-icons/tb';
@@ -6,6 +6,7 @@ import { BiTimeFive} from 'react-icons/bi';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
@@ -48,6 +49,19 @@ function Contact(props) {
     // });
     alert(result.status);
   };
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6tdydkq', 'template_3bzqyms', form.current, 'TRuhiRUAcuzdaHkHc')
+      .then((result) => {
+          console.log(result.text);
+          alert("send sucessfully")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
     return (
         <div>
       
@@ -94,7 +108,7 @@ function Contact(props) {
           </div>
 
           <div class="col-lg-6 d-flex align-items-stretch contact-form-wrap">
-            <form onSubmit={handleSubmit} class="php-email-form">
+            <form ref={form}  onSubmit={sendEmail} class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <label for="name">Your Name</label>
@@ -118,7 +132,7 @@ function Contact(props) {
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">{status}</button></div>
+              <div class="text-center"><button type="submit" >Submit</button></div>
             </form>
           </div>
 
