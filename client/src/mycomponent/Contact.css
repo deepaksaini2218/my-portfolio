@@ -181,3 +181,7 @@ margin: auto;
   margin-top: 30px;
   padding: 20px;
 }
+.mails{
+  text-decoration: none;
+  color: black;
+}

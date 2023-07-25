@@ -36,5 +36,7 @@
     transform: rotate(360deg);
   }
 }
-
+.whatsapp_widget_header_icon img{
+  width: 50px !important;
+}
 

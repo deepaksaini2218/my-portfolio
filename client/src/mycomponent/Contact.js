@@ -91,12 +91,16 @@ function Contact(props) {
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                 <i class="bx bx-phone"><BsTelephonePlus/></i>
                 <h4>Call </h4>
-                <p>+91 8685068567<br></br>+91 7015167992</p>
+                <p><a className='mails' href="tel:+918685068567">+91 8685068567</a><br></br>
+                {/* +91 7015167992 */}
+                </p>
               </div>
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                 <i class="bx bx-envelope"><BsFillEnvelopeFill/></i>
                 <h4>Email Us</h4>
-                <p>sainimonti17@gmail.com<br></br>deepak2117saini@gmail</p>
+                <p> <a className='mails' href="mailto:sainimonti17@gmail.com"> sainimonti17@gmail.com</a><br></br>
+                {/* deepak2117saini@gmail */}
+                </p>
               </div>
               <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                 <i class="bx bx-time-five"><BiTimeFive/></i>
@@ -158,34 +162,46 @@ function Contact(props) {
                 
             }>
     <div class='item'>
+    <a href="https://www.freelancer.com/u/sainimonti17" target='_blank'>
       <img src="/images/social/1 (1).png" alt="" />
     
-        <a href=""> Freelancer</a>
+        <a href="https://www.freelancer.com/u/sainimonti17" target='_blank'> Freelancer</a>
+        </a>
     </div>
     <div class='item'>
+    <a href=" https://twitter.com/sainimonti17" target='_blank'>
       <img src="/images/social/1 (2).png" alt="" />
       
-        <a href="#">Twitter</a>
+        <a href=" https://twitter.com/sainimonti17" target='_blank'>Twitter</a>
+        </a>
     </div>
-    <div class='item'>
+    <div class='item'><a href="https://github.com/deepaksaini2218" target='_blank'>
       <img src="/images/social/1 (3).png" alt="" />
-       <a href="#">Github </a>
+       <a href="https://github.com/deepaksaini2218" target='_blank'>Github </a></a>
     </div>
     <div class='item'>
+    <a href="https://www.instagram.com/saini_monti_21/" target='_blank'>
       <img src="/images/social/1 (4).png" alt="" />
-        <a href="#">Instagram</a>
+        <a href="https://www.instagram.com/saini_monti_21/" target='_blank'>Instagram</a>
+        </a>
     </div>
     <div class='item'>
+    <a href="https://www.linkedin.com/in/deepak-s-779a00201/" target='_blank'>
       <img src="/images/social/1 (5).png" alt="" />
-        <a href="#">Linkedin </a>
+        <a href="https://www.linkedin.com/in/deepak-s-779a00201/" target='_blank'>Linkedin </a>
+        </a>
     </div>
     <div class='item'>
+    <a href="https://www.facebook.com/monti.saini.12" target='_blank'>
       <img src="/images/social/1 (6).png" alt="" />
-        <a href="#">Facebook</a>
+        <a href="https://www.facebook.com/monti.saini.12" target='_blank'>Facebook</a>
+        </a>
     </div>
     <div class='item'>
+    <a href="https://www.youtube.com/@DEEPAKSAINI-xt9wt/featured" target='_blank'>
       <img src="/images/social/1 (7).png" alt="" />
-        <a href="#">Youtube</a>
+        <a href="https://www.youtube.com/@DEEPAKSAINI-xt9wt/featured" target='_blank'>Youtube</a>
+        </a>
     </div>
     
     

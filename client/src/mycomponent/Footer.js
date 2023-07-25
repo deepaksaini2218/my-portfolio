@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 import { FiTwitter} from 'react-icons/fi';
 import { BsFacebook,BsSkype,BsLinkedin,BsTelephonePlus} from 'react-icons/bs';
-import { AiOutlineInstagram} from 'react-icons/ai';
+import { AiOutlineInstagram,AiFillYoutube,AiFillGithub} from 'react-icons/ai';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function Footer(props) {
@@ -37,8 +37,8 @@ function Footer(props) {
           Shiv Nagar <br></br>
           Rewari, 123401<br></br>
           India <br></br>
-          <strong>Phone:</strong> +91-8685068567<br></br>
-          <strong>Email:</strong> sainimonti17@gmail.com<br></br>
+          <strong>Phone:</strong> <a className='mails' href="tel:+918685068567">+91 8685068567</a><br></br>
+          <strong>Email:</strong> <a className='mails' href="mailto:sainimonti17@gmail.com"> sainimonti17@gmail.com</a><br></br>
         </p>
       </div>
 
@@ -71,6 +71,8 @@ function Footer(props) {
           <a href="#" class="twitter"><i class="bx bxl-twitter"><FiTwitter/></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"><BsFacebook/></i></a>
           <a href="#" class="instagram"><i class="bx bxl-instagram"><AiOutlineInstagram/></i></a>
+          <a href="#" class="youtube"><i class="bx bxl-instagram"><AiFillYoutube/></i></a>
+          <a href="#" class="github"><i class="bx bxl-instagram"><AiFillGithub/></i></a>
         
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i><BsLinkedin/></a>
         </div>

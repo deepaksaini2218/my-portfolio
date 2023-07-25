@@ -190,9 +190,9 @@ function About(props) {
               <h5>Apr/2023 - Jul/2023</h5>
               <p><em>Ismart TechSpeeds Innovative Electrical Appliances Pvt. Ltd.  </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Lead in the design, development, and implementation of the  layout</li>
+                <li>Work on the desigining of <a href="https://techspeeds.com/index.html"> Techspeeds </a> Website </li>
+                <li>Made template design on canva</li>
                 {/* <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> */}
               </ul>
             </div>
@@ -202,9 +202,9 @@ function About(props) {
               <h5> Sep/2017 - Nov/2017</h5>
               <p><em>TINT Computer Center</em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Learn about the MS-office and its tools</li>
+                <li>Learn Basics of computer </li>
+                <li>Study the <b>C</b> Language</li><br />
                 {/* <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> */}
               </ul>
             </div>
@@ -213,9 +213,9 @@ function About(props) {
               <h5>Sep/2021 - Feb/2022</h5>
               <p><em>SSDN Technologies </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Learn About the designing and development part of a website</li>
+                <li>Work on the HTML, CSS , BOOTSTRAP AND JAVASCRIPT </li>
+                <li>learn about the  frameworks like <b>React js  </b></li>
                 {/* <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li> */}
               </ul>
             </div>
