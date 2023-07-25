@@ -8,6 +8,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
+import swal from 'sweetalert';
 import withReactContent from 'sweetalert2-react-content'
 
 function Contact(props) {
@@ -56,9 +57,21 @@ function Contact(props) {
     emailjs.sendForm('service_6tdydkq', 'template_3bzqyms', form.current, 'TRuhiRUAcuzdaHkHc')
       .then((result) => {
           console.log(result.text);
-          alert("send sucessfully")
+          // alert("send sucessfully")
+          swal({
+            title: "Hurray!",
+            text: "Form Submitted Sucessfully",
+            icon: "success",
+            button: "Close",
+          });
       }, (error) => {
           console.log(error.text);
+          swal({
+            title: "OOPS!",
+            text: "Please Try Again",
+            icon: "error",
+            button: "Close",
+          });
       });
   };
 
