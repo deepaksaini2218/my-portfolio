@@ -201,7 +201,7 @@ function Contact(props) {
     <div class='item'>
     <a href="https://www.linkedin.com/in/deepak-s-779a00201/" target='_blank'>
       <img src="/images/social/1 (5).png" alt="" />
-        <a href="https://www.linkedin.com/in/deepak-s-779a00201/" target='_blank'>Linkedin </a>
+        <a href="#" target='_blank'>Linkedin </a>
         </a>
     </div>
     <div class='item'>
