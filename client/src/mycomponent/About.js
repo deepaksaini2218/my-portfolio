@@ -187,7 +187,7 @@ function About(props) {
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Intern IT-Executive</h4>
-              <h5>Apr/2023 - Jul/2023</h5>
+              <h5>Feb/2023 - Jul/2023</h5>
               <p><em>Ismart TechSpeeds Innovative Electrical Appliances Pvt. Ltd.  </em></p>
               <ul>
                 <li>Lead in the design, development, and implementation of the  layout</li>
